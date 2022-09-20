@@ -1,11 +1,11 @@
 const quizQuestions=[
     {
-        question : "Q1: What is the full form of HTML?",
-        a: "Hello To My Land",
-        b: "Hey Text Markup Language",
-        c: "Hyper Text Markup Language",
-        d: "Hypertext Markup Language",
-        ans: "ans4"
+        question : "Q1: What is the full form of JS?",
+        a: "JavaScript",
+        b: "Java Script",
+        c: "Jscript",
+        d: "Java Super",
+        ans: "ans1"
     },
     {
         question : "Q2: What is the full form of CSS?",
@@ -16,21 +16,70 @@ const quizQuestions=[
         ans: "ans1"
     },
     {
-        question : "Q3: What is the full form of HTTP?",
-        a: "Hyper Text Transfor Protocol",
-        b: "Hypertext Transfer Protocol",
-        c: "Hello Text Transfer Protocol",
-        d: "Hypertext Transfer Product",
+        question : "Q3: Web browsers provide which property that allows developers to modify the DOM?",
+        a: "amendHTML",
+        b: "changeHTML",
+        c: "innerHTML",
+        d: "modifyHTML",
+        ans: "ans3"
+    },
+    {
+        question : "Q4: What is the property to access the first child of a node?",
+        a: "timestamp.Child1",
+        b: "timestamp.Child(1)",
+        c: "timestamp.Child(0)",
+        d: "timestamp.firstChild",
+        ans: "ans4"
+    },
+    {
+        question : "Q5: The nodes that represent HTML elements are th",
+        a: "System",
+        b: "Tree",
+        c: "Window",
+        d: "None of the above",
+        ans: "ans3"
+    },
+    {
+        question : "Q6: Document object is part of ____ object.",
+        a: "Window",
+        b: "Element",
+        c: "Location",
+        d: "Browser",
+        ans: "ans1"
+    },
+    {
+        question : "Q7: Another term for a local scope JavaScript variable is __.",
+        a: "global scope",
+        b: "function scope",
+        c: "program code",
+        d: "code scope",
         ans: "ans2"
     },
     {
-        question : "Q4: What is the full form of JS?",
-        a: "JavaScript",
-        b: "Java Script",
-        c: "Jscript",
-        d: "Java Super",
+        question : "Q8: The URL property belongs to which of the following object?",
+        a: "Document",
+        b: "Element",
+        c: "Location",
+        d: "Event",
         ans: "ans1"
-    }
+    },
+    {
+        question : "Q9: The setTimeout() belongs to which object?",
+        a: "Element",
+        b: "Window",
+        c: "Location",
+        d: "Event",
+        ans: "ans2"
+    },
+    {
+        question : "Q10: ______is included in the document object of BOM.",
+        a: "Form",
+        b: "Images",
+        c: "Links and other elements",
+        d: "All of these",
+        ans: "ans4"
+    },
+    
 ];
 
 const question = document.querySelector('.question');
